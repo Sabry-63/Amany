@@ -1,0 +1,1615 @@
+/*          Responsive styles
+================================================== */
+ 
+
+/*                     Tablet Landscape
+=======================================================================================*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+.base-header h3 {
+    line-height: 31px;
+}
+/*----------------------------
+   2. Header Section 
+------------------------------*/
+.slider-area .big-title {
+    text-align: center;
+}
+.slider-area .small-content {
+    text-align: center;
+	padding: 30px 0px ;
+	margin-bottom: 0px;
+}
+.slider-area .button {
+    top: 70%;
+}
+.slider-area .slider-1 .button {
+	text-align:center;
+	left: 0px;
+}
+
+.ban1_txt {
+	text-align: center;
+}
+.ban1_txt p {
+    padding:0px 170px;
+}
+
+.search-wrap {
+    display: none;
+}
+
+.trainer-slid .nivo-caption {
+    top:0px;
+}
+.widget_mailchimp {
+    margin-top: 40px;
+}
+
+/* - Comming Soon Page 
+============================*/
+.count-title {
+    font-size: 57px;
+}
+/*----------------------------
+  3. about Section
+------------------------------*/
+.about-section {
+    padding-bottom: 60px;
+}
+.about-ssection .section-header {
+    margin-bottom: 40px;
+}
+.about-list {
+    padding-bottom: 140px;
+}
+
+/*
+   Marketing About Section 
+------------------------------*/
+.marketing-page-about .about-list .about-info {
+    bottom: -127px;
+}
+.marketing-page-about .about-list {
+    position: relative;
+    padding-bottom: 180px;
+}
+
+.marketing-service-ssection .fea-left {
+    padding-left: 48px;
+	letter-spacing: 1px;
+	font-size: 17px;
+}
+.marketing-service-ssection .icon-fea {
+    margin: 5px 0px -5px 0px;
+}
+.marketing-service-ssection .service-item {
+    margin-top: 41px;
+}
+.marketing-service-ssection .base-header h3 {
+    line-height: 34px;
+}
+
+/*
+   Portfolio About Section 
+------------------------------*/
+.portfolio-page-about .about-list .about-info h6::before {
+    top: -10px;
+}
+.portfolio-page-about .about-list .about-img {
+    margin-bottom: 40px;
+}
+.portfolio-page-about .about-list .about-info {
+    padding: 20px 26px 20px 37px;
+    bottom: -47px;
+}
+
+/*
+    Services  Section (index-contractor)
+----------------------------------------------*/
+.servs-section .servs-box .servs-content {
+    top: 133px;
+}
+.servs-section .servs-box .servs-content p {
+    margin-top: -32px;
+}
+.servs-section .servs-box .servs-content h3 {
+    font-size: 18px;
+}
+
+/*----------------------------
+   Creative ( Skill Section ) 
+------------------------------*/
+.skill {
+    padding-top: 30px;
+}
+.skill  .base-header h3 {
+    line-height: 34px;
+}
+.skills_area {
+    margin-top: 134px;
+}
+.skill-bar-percent-one {
+    right: 122px;
+}
+.skill-bar-percent-two {
+    right: 86px;
+}
+.skill-bar-percent-three {
+    right: 38px;
+}
+/*----------------------------
+  Chooseus Section
+------------------------------*/
+.chooseus-item .chooseus-content {
+    padding-bottom: 0px;
+}
+.chooseus-section .base-header h3 {
+    margin-top: 0px;
+}
+.chooseus-warper2 {
+    margin-top: -38px;
+}
+/*----------------------------
+  6. Work Section 
+------------------------------*/
+.mask2 h4 {
+    margin-top: 22px;
+}
+.project-filter {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.project-filter ul li {
+    padding-bottom: 3px;
+    color: #555;
+    cursor: pointer;
+    margin-bottom: 17px;
+    margin-left: 30px;
+    float: left;
+}
+/*----------------------------
+  8. Team Section 
+------------------------------*/
+.member .info {
+    width: 93%;
+}
+.social li {
+    margin-right:0px;
+}
+/*--------------------------------------
+  9. Pricing and Testimonial Section 
+----------------------------------------*/
+.clientCont {
+    padding-left: 371px;
+    margin-top: -32px;
+}
+.testimonial-box {
+    margin-top: 20px;
+}
+.cus-title {
+    text-align: center;
+}
+
+/*--------------------------------------
+  11. Pricing Section  ( Marketing )
+----------------------------------------*/
+.pricing-page .signup {
+    margin-bottom: 50px;
+}
+.pricing-page {
+    padding-bottom: 50px;
+}
+/*--------------------------------------
+  10. Blog Section 
+----------------------------------------*/
+.blog-section {
+    padding-bottom: 50px;
+}
+.single-post {
+    width: 100%;
+	padding: 15px 15px;
+}
+.blog-thumb {
+    width: 100%;
+    height: 100%;
+}
+.single-post-warper {
+    right: 15px;
+    left: 0px;
+}
+.single-post-left {
+    margin-bottom: 50px;
+}
+.blog-section .col-lg-6 .row .col-lg-12 {
+    margin-bottom: 50px;
+}
+.blog-fornt .blog-post.row .col-xs-12{
+	width: 50%;
+}
+
+/*--------------------------------------
+  11. Contact Section 
+----------------------------------------*/
+.contact-section .section-header {
+    padding-bottom: 20px;
+    background: #fff;
+}
+/*--------------------------------------
+  13. Blog Page
+----------------------------------------*/
+.blog-list-page .hvr-shutter-in-horizontal, .blog-full-widthh .hvr-shutter-in-horizontal {
+    top: 20px;
+}
+.blog-list-page {
+    padding-bottom: 70px;
+}
+
+/* 
+      Blog full-width Page 
+*=============================*/
+.blog-full-widthh .blog-thumb {
+    width: 45%;
+}
+.blog-full-widthh .single-post {
+    width: 55%;
+}
+/*=====================================
+    About Page  
+*=====================================*/
+.about-one {
+    padding-bottom: 100px;
+}
+ .about-contact {
+    margin-top: 0px;
+}
+ 
+/*=====================================
+    About Page Two
+*=====================================*/
+.nwsletter {
+    margin-top: 0px;
+}
+}	
+/*                      Tablet Portrait
+============================================================================================================================================================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+.base-header h3 {
+    line-height: 31px;
+}
+/*----------------------------
+  2. Header Section
+------------------------------*/
+.navbar .navbar-nav {
+    letter-spacing: 0px;
+    margin-left: 12px;
+}
+.nav > li > a {
+    margin: 0 12px;
+}
+.ban1_txt {
+	text-align: center;
+}
+.ban1_txt p {
+    padding:0px 20px;
+}
+
+
+.slider-area .big-title {
+    text-align: center;
+}
+.slider-area .small-content {
+    text-align: center;
+}
+.slider-area .button {
+    top: 70%;
+}
+.slider-area .slider-1 .button {
+	text-align:center;
+	left: 0px;
+}
+.manimenu a {
+    padding: 30px 8px;
+}
+
+.slid_man img {
+    display:none !important;
+}
+
+.top-contact li {
+   margin-left: -33px;
+}
+.top-contact li:first-child {
+    margin-right: 50px;
+}
+.constr-slidr .nivo-caption {
+    top: 0px;
+}
+.search-wrap {
+    display: none;
+}
+
+.trainer-slid .nivoSlider img {
+    height: 497px;
+}
+.trainer-slid .nivo-caption {
+    top:0px;
+}
+.widget_mailchimp {
+    margin-top: 40px;
+}
+
+
+/* - Comming Soon Page 
+============================*/
+.count-title {
+    font-size: 57px;
+}
+/*----------------------------
+  3. about Section
+------------------------------*/
+.about-section {
+    padding-bottom: 60px;
+}
+.about-ssection .section-header {
+    margin-bottom: 40px;
+}
+.about-list {
+    position: relative;
+    padding-bottom: 140px;
+}
+
+/*
+   medical-service Section 
+------------------------------*/
+.medical-service .fea-left {
+    font-size: 16px;
+	 padding-left: 48px;
+}
+
+/*
+   Marketing About Section 
+------------------------------*/
+.marketing-page-about .about-list .about-info {
+    bottom: -127px;
+}
+.marketing-page-about .about-list {
+    position: relative;
+    padding-bottom: 180px;
+}
+
+/*
+   Portfolio About Section 
+------------------------------*/
+.portfolio-page-about .about-list .about-info h6::before {
+    top: -10px;
+}
+.portfolio-page-about .about-list .about-img {
+    margin-bottom: 40px;
+}
+.portfolio-page-about .about-list .about-info {
+    padding: 20px 26px 20px 37px;
+    bottom: -47px;
+}
+
+/*
+    About Section (index-contractor)
+----------------------------------------------*/
+.about_process .container-fluid .col-lg-3.col-sm-3{
+    width: 50%;
+}
+.about_process .abt-left h4 {
+    font-size: 55px;
+}
+/*----------------------------
+  4. Service Section
+------------------------------*/
+.service-ssection {
+    padding-top: 47px;
+}
+.service-section .row {
+    padding-left: 0px;
+}
+.service-warper2 {
+    padding-right: 0px;
+}
+.service-item .service-content {
+    width: 70%;
+    margin-left: 20px;
+}
+.service-item .service-icon {
+    width: 23%;
+}
+
+.marketing-service-ssection  .timeline_posts{
+    margin-top: 42px;
+}
+.marketing-service-ssection .fea-about-info {
+    float: left;
+}
+.marketing-service-ssection .fea-left {
+    padding-left: 0px;
+    font-size: 18px;
+    margin-top: 8px;
+    float: left;
+}
+.marketing-service-ssection .base-header h3 {
+    line-height: 34px;
+}
+
+/*
+    Services  Section (index-contractor)
+----------------------------------------------*/
+.servs-section .servs-box .servs-content {
+    top: 160px;
+}
+
+/*----------------------------
+   Creative ( Skill Section ) 
+------------------------------*/
+.skill {
+    padding-top: 0px;
+}
+.skill  .base-header h3 {
+    line-height: 34px;
+}
+.skills_area {
+    margin-top: 134px;
+}
+.skill-bar-percent-one {
+    right: 96px;
+}
+.skill-bar-percent-two {
+    right: 67px;
+}
+.skill-bar-percent-three {
+    right: 29px;
+}
+
+
+/*----------------------------
+   Medical Guide Section 
+------------------------------*/
+.medical-guide-section .nav-tabs > li a {
+    letter-spacing: 1px;
+}
+
+
+/*----------------------------
+  5. Achieve Section 
+------------------------------*/
+.achieve-section .section-header h2 small {
+    letter-spacing: 0px;
+}
+.achieve-section .section-header {
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+.achieve-section .section-header p {
+    width: 44%;
+}
+/*----------------------------
+  6. Work Section 
+------------------------------*/
+.project-filter {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+.project-filter ul li {
+    margin-left: 30px;
+}
+.mask2 h4 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.mask2 p {
+	margin-top: -25px;
+}
+.mask2 i {
+    position: relative;
+    top: -8px;
+}
+/*----------------------------
+7. Get touch Section
+------------------------------*/
+.get-touch-button {
+    padding: 90px 39px;
+}
+.get-touch-section h3 {
+    letter-spacing: 1px;
+}
+.get-touch-section {
+    padding: 0px 0px;
+    padding-top: 40px;
+}
+.get-touch-section h4 {
+    font-size: 16px;
+}
+.get-touch-button {
+    margin-top: -69px;
+}
+.get-touch-warper {
+    padding: 0px 0px;
+}
+/*----------------------------
+  8. Team Section 
+------------------------------*/
+.member .info {
+    width: 91.7%;
+} 
+.member .info h6 {
+    letter-spacing: 0px;
+    font-size: 19px;
+}
+.social li {
+    margin-right:0px;
+}
+
+/*--------------------------------------
+  chooseus-section
+----------------------------------------*/
+.chooseus-section {
+    padding-bottom: 50px;
+}
+.chooseus-section .base-header h3 {
+   letter-spacing: 0px;
+}
+.chooseus-warper {
+    margin-top: 20px;
+}
+.chooseus-item .chooseus-icon {
+    width: 19%;
+    left: -16px;
+}
+.chooseus-item {
+    margin-top: -48px;
+}
+/*--------------------------------------
+   video Section 
+----------------------------------------*/
+.video-content {
+    margin: 112px auto auto;
+}
+.play-video {
+    margin-top: 27px;
+}
+.video-content h2 {
+    font-size: 25px;
+}
+
+/*--------------------------------------
+  9. Pricing and Testimonial Section 
+----------------------------------------*/
+.clientCont {
+    padding-left: 268px;
+    margin-top: -32px;
+}
+.testimonial-box {
+    margin-top: -1px;
+}
+.cus-title {
+    text-align: center;
+}
+ 
+
+.pricing-page {
+    padding-bottom: 70px;
+}
+.pricing-page .signup {
+    margin-bottom: 30px;
+}
+.testimonial-box img, .cus-title {
+    margin-top: 44px;
+}
+
+
+.testimonials-section .owl-theme .owl-controls {
+    margin-top: -18px;
+    text-align: center;
+}
+/*----------------------------------------------------
+   Testimonial Section (Marketing Page)
+------------------------------------------------------*/
+
+.single_testimonial_item .testimonial_text {
+    padding-top: 72px;
+}
+/*--------------------------------------
+  10. Blog Section 
+----------------------------------------*/
+.blog-section {
+    padding-bottom: 50px;
+}
+.single-post {
+    width: 100%;
+	padding: 15px 15px;
+}
+.blog-thumb {
+    width: 100%;
+    height: 100%;
+}
+.single-post-warper {
+    right: 15px;
+    left: 0px;
+}
+.single-post-left {
+    margin-bottom: 50px;
+}
+.blog-section .col-lg-6 .row .col-lg-12 {
+    margin-bottom: 50px;
+}
+.blog-fornt .blog-post.row .col-xs-12{
+	width: 50%;
+}
+/*--------------------------------------
+  11. Contact Section 
+----------------------------------------*/
+.contact-section .section-header {
+    padding-bottom: 20px;
+    background: #fff;
+}
+
+/*--------------------------------------
+   footer Section
+----------------------------------------*/
+.footer-section .container .col-sm-2, .footer-section .container .col-sm-4 {
+    width: 25% !important;
+}
+.footer-section .subfooter .col-md-6, .footer-section .subfooter .col-md-6 {
+    width: 50% !important;
+}
+.widget_mailchimp #mc-embedded-subscribe {
+    letter-spacing: 0px;
+    font-size: 13px;
+}
+/*--------------------------------------
+  13. Blog Page
+----------------------------------------*/
+.blog-area {
+    padding-right: 15px;
+}
+.blog-post-list .entry-meta span {
+    margin-left: 20px;
+}
+
+.blog-list-page .hvr-shutter-in-horizontal, .blog-full-widthh .hvr-shutter-in-horizontal {
+    top: 20px;
+}
+.blog-list-page {
+    padding-bottom: 70px;
+}
+/* 
+      Blog full-width Page 
+*=============================*/
+.blog-full-widthh .single-post-warper {
+    left:0px;
+}
+.blog-full-widthh .blog-thumb {
+    padding: 0px 15px;
+	margin-bottom: 50px;
+}
+.blog-full-widthh .single-post {
+    margin-bottom:0px;
+}
+.blog-full-widthh .blog-thumb-left {
+    left: 0px;
+}
+.blog-full-widthh .blog-thumb img {
+    box-shadow: -5px 13px 42px 0px rgba(215, 212, 212, 0.81);
+}
+.blog-full-widthh .hvr-shutter-in-horizontal, .blog-full-widthh .hvr-shutter-in-horizontal {
+    top: 0px;
+}
+/*=====================================
+    About Page  
+*=====================================*/
+ .about-contact {
+    margin-top: 0px;
+}
+.about-one .about-left {
+    margin-top: -40px;
+}
+ 
+/*=====================================
+    About Page Two
+*=====================================*/
+.nwsletter {
+    margin-top: 0px;
+}
+
+/*=====================================
+   Service Page  
+*=====================================*/
+.single-service-page {
+    padding-bottom: 0px;
+}
+.single-service-page .related-portfolio {
+    padding-bottom: 50px;
+}
+}
+/*                          Phone
+=============================================================================================================================================================================*/
+@media only screen and (max-width: 767px){
+	
+.base-header h3 {
+    line-height: 31px;
+}
+/*----------------------------
+  2. Header Section   
+------------------------------*/
+.navbar-default .navbar-toggle {
+    margin-top: 3px;
+}
+.manimenu {
+    padding: 2px 0;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fbf6f6;
+}
+.ban1_txt {
+    margin-top: -62px;
+	text-align: center;
+}
+.ban1_txt h2 {
+    font-size: 38px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+.ban1_txt p {
+    width: 100%;
+    padding: 0px 20px;
+}
+.ban1_txt a {
+    margin-top: 15px;
+}
+.navbar-header {
+    background: none;
+}
+ 
+.slider-content{
+	display:none
+}
+.slidernav .navbar {
+    padding: 0px 0px;
+}
+.btn-cus_1 {
+    margin-right: 0px;
+}
+
+.manimenu .navbar-header {
+    background: none;
+    margin-top: -10px;
+}
+.manimenu ul {
+    margin-top: 10px;
+	margin-left:0px !important;
+}
+.manimenu ul > li{
+   display:block;
+   width:100%;
+}
+.manimenu a {
+    padding: 10px 20px;
+}
+.manimenu .navbar-brand > img {
+    margin-top: -7px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+	box-shadow:none;
+}
+.manimenu li ul {
+    top: 35px;
+}
+.manimenu ul > li ul li:hover a {
+	background:transparent;
+	color: #ef6b4c;
+}
+.manimenu a:hover {
+    border-top: none !important;
+}
+.slid_man img {
+    display:none !important;
+}
+
+.slider-area .preview-2 .nivo-directionNav a.nivo-prevNav::before {
+    background: transparent;
+}
+.slider-area .preview-2 .nivo-directionNav a.nivo-nextNav::before {
+    background: transparent;
+}
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-prevNav {
+    left: 20px;
+}
+.preview-2 .nivoSlider .nivo-directionNav a.nivo-nextNav {
+    right: 70px;
+}
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-prevNav {
+    left: 20px;
+}
+.preview-2 .nivoSlider:hover .nivo-directionNav a.nivo-nextNav {
+    right: 70px;
+}
+.top-right a {
+    top: -7px;
+}
+.top-contact li {
+    padding-left: 0px;
+    margin-top: -23px;
+    width: 100%;
+	margin-left: -23px;
+}
+.top-contact li::before {
+	display: none;
+}
+.top-right {
+    display: none;
+}
+
+.search-wrap {
+    display: none;
+}
+
+/* - Not Found Page 
+============================*/ 
+.not-fud .blog-header h4 {
+    font-size: 160px;
+    letter-spacing:0px;
+}
+.not-fud .blog-header h5 {
+    line-height: 36px;
+}
+
+/* - Comming Soon Page 
+============================*/
+.count-title {
+    font-size: 57px;
+    line-height: 52px;
+}
+.comming-sn h4 {
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+/*----------------------------
+  3. About Section
+------------------------------*/
+.about-list {
+    margin-bottom: 147px;
+}
+.about-section {
+    padding-bottom: 60px;
+}
+.base-header h3 {
+    line-height: 33px;
+}
+.marketing-page-about .base-header h3 {
+    font-size: 36px;
+    line-height: 33px;
+}
+.marketing-page-about .about-list {
+    margin-bottom: 200px;
+}
+
+
+/*
+   Portfolio About Section 
+------------------------------*/
+.portfolio-page-about .about-list .about-img {
+    width: 100%;
+}
+.portfolio-page-about .about-list .about-info {
+    width: 100%;
+    bottom: 0px;
+    left: 0%;
+	margin-bottom: 40px;
+    padding: 20px 26px 20px 30px;
+}
+.portfolio-page-about .about-list .about-info h6::before {
+    display: none;
+}
+.portfolio-page-about .about-list .about-info h6 {
+    padding-left: 0px !important;
+}
+
+/*
+    About Section (index-contractor)
+----------------------------------------------*/
+.abt-left h4 {
+    font-size: 43px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+/*----------------------------
+  4. Service Section
+------------------------------*/
+.service-ssection {
+    background: #012130;
+}
+.timeline_posts {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.timeline_posts {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.service-item {
+    margin-bottom: 50px;
+}
+.marketing-service-ssection .icon-fea {
+    margin: 0px 0px -5px 0px;
+}
+.marketing-service-ssection {
+    padding-bottom: 43px;
+	padding-top: 55px;
+}
+
+.medical-service {
+    background: #F9F4F4;
+    padding-top: 55px;
+}
+/*
+    Services  Section (index-contractor)
+----------------------------------------------*/
+.servs-section .servs-img img {
+    height: 224px;
+}
+.servs-section .servs-box .servs-content h3 {
+    font-size: 18px;
+    padding-top: 0px;
+    letter-spacing: 4px;
+}
+.servs-section .servs-box .servs-content {
+    padding-top: 0px;
+}
+.servs-section .servs-box .servs-content p {
+    font-size: 13px;
+    margin-top: -28px;
+    padding-left: 6px;
+    line-height: 21px;
+} 
+/*----------------------------
+   Creative ( Skill Section ) 
+------------------------------*/
+.skill {
+    padding-top: 30px;
+	padding-bottom: 45px;
+}
+.skill  .base-header h3 {
+    line-height: 34px;
+}
+.skills_area {
+    margin-top: 134px;
+}
+.skill-bar-percent-one {
+    right: 65px;  
+}
+.skill-bar-percent-two {
+    right: 45px;
+}
+.skill-bar-percent-three {
+    right: 18px;
+}
+
+
+/*----------------------------
+  5. Team Section 
+------------------------------*/
+.team-section {
+    padding-bottom: 0px;
+
+}
+.team-section .section-header {
+    width: 100%;
+}
+.section-header h2 {
+    font-size: 28px;
+    line-height: 37px;
+}
+.member .info {
+    width: 100%;
+}
+.member {
+    padding: 0px 0px;
+    margin-bottom: 100px;
+}
+
+
+/*----------------------------
+6. Get touch Section
+------------------------------*/
+.get-touch-section {
+    padding: 0px 0px;
+}
+
+.get-touch-button {
+    padding: 65px 31px;
+    margin-top: -39px;
+}
+ 
+.get-touch-button a {
+    padding: 11px 11px;
+    letter-spacing: 2px;
+}
+.get-touch-section h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.get-touch-section h3::before {
+    left: -31px;
+    width: 30px;
+    height: 30px;
+    line-height: 44px;
+}
+.get-touch-section h3::after {
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    line-height: 43px;
+}
+.get-touch-section p {
+    padding: 0px 0px;
+}
+.get-touch-section h4 {
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+/*----------------------------
+  7. Choose us Section
+------------------------------*/
+.chooseus-warper {
+    margin-top: 13px;
+    margin-bottom: 70px;
+}
+.chooseus-section .base-header h3 {
+    letter-spacing: 1px;
+}
+
+.chooseus-item .chooseus-icon {
+    width: 27%;
+    left: -13px;
+}
+.chooseus-item .chooseus-content {
+    width: 73%;
+}
+/*----------------------------
+  8. Video Section
+------------------------------*/
+.video-section .video-image {
+    display: none;
+}
+.video-content {
+    margin: 170px auto auto;
+}
+.video-content a {
+    margin-bottom: 70px;
+}
+.play-video {
+    margin-top: 70px;
+}
+/*----------------------------
+  9. Work Section 
+------------------------------*/
+.project-filter {
+    margin-top: -10px;
+	margin-left: 0px;
+}
+.project-filter ul li {
+    margin-bottom: 17px;
+    margin-left: 10px;
+    float: none;
+}
+.project-filter ul {
+    background:transparent;
+}
+
+.work-section {
+    background: #fcf7f7;
+}
+/*--------------------------------------
+  10. Blog Section 
+----------------------------------------*/
+
+.blog-section {
+    padding-bottom: 60px;
+}
+.blog-section .section-header {
+    width: 100%;
+}
+ 
+.single-post-warper {
+    padding: 40px 24px;
+}
+.blog-content a {
+    font-size: 16px;
+}
+.date-sty {
+    font-size: 24px;
+}
+.blog-section  .col-lg-6{
+    margin-bottom: 20px;
+}
+.single-post-warper {
+    left: 0px;
+}
+.single-post {
+    width: 100%;
+}
+.blog-thumb {
+    width: 100%;
+	 height: 100%;
+}
+.single-post {
+    padding: 15px 15px;
+    margin-top: 30px;
+}
+/*--------------------------------------
+  11. Pricing and Testimonial Section 
+----------------------------------------*/
+.clientCont {
+    padding-left: 176px;
+    margin-top: -31px;
+}
+.testimonial-box {
+    padding: 15px 22px;
+	margin-top: 0px;
+}
+.testimonial-box span {
+    font-size: 14px;
+    text-align: center;
+}
+.testimonial-box .tes-degree {
+    font-size: 11px;
+}
+.cus-title {
+    text-align: center;
+}
+.pricing-box h3 {
+    font-size: 29px;
+}
+.pricing-section .col-lg-offset-2 {
+    margin-left:0%;
+}
+.testimonial-box img, .cus-title {
+    margin-top: 26px;
+}
+/*--------------------------------------
+  11. Pricing Section  ( Marketing )
+----------------------------------------*/
+.pricing-page .signup {
+    margin-bottom: 50px;
+}
+.pricing-page {
+    padding-bottom: 50px;
+}
+/*----------------------------------------------------
+   Testimonial Section (Marketing Page)
+------------------------------------------------------*/
+.single_testimonial_item .testimonial_text {
+    padding-top: 130px;
+    padding-right: 0px;
+}
+.single_testimonial_item .testimonial_quote {
+    padding-top: 0px;
+}
+.single_testimonial_item .testimonial_text p {
+    padding-bottom: 18px;
+    margin-top: -34px;
+    text-align: left;
+}
+.single_testimonial_item {
+    padding-left: 60px;
+    padding-right: 28px;
+}
+.testimonial_quote img {
+    display: none;
+}
+/*--------------------------------------
+  12. Contact Section 
+----------------------------------------*/
+.contact-section .section-header {
+    background: #fff;
+    padding-bottom: 20px;
+}
+.contact-section .section-header p {
+    padding: 0px 19px;
+    width: 100%;
+}
+.contact-section .section-header h2 {
+    padding: 45px 19px;
+}
+.contact-section .inner-contact {
+    padding: 0px;
+}
+.contact-info .col-sm-4 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.contact-info {
+    top: -50px;
+}
+/*--------------------------------------
+  13. Footer Section 
+----------------------------------------*/
+.footer-section .widget h5 {
+    margin-top: -10px;
+}
+.footer-links a {
+    float: left;
+    margin: 0px 12px;
+}
+.footer-section .col-md-4, .footer-section .col-md-2, .footer-section .col-md-3{
+    text-align:center;
+}
+.footer-section .widget p {
+    padding-right:0px;
+}
+.footer-section .subfooter .col-md-6, .footer-section .subfooter .col-md-6 {
+    width:  100% !important;
+}
+.subfooter {
+    padding: 30px 23px 10px 24px;
+}
+.scrollup {
+    float: none;
+}
+.subfooter p {
+    float: none;
+}
+.footer-section .widget {
+    text-align: left;
+}
+
+
+.landing-footer .social_footer a {
+    margin: 0px 10px;
+}
+
+
+
+/*=====================================
+        Blog Page 
+*=====================================*/
+.blog-area {
+    margin-top: -40px;
+	padding-right:0px;
+}
+.widget-area {
+    padding-top: 0px;
+}
+.blog-post-list .entry-meta span {
+    margin-left:0px;
+}
+.blog-area .pagination .pager {
+    margin: 10px 6px;
+}
+.blog-area .pager li {
+    position: relative;
+    padding: 0px 0px;
+}
+.blog-post-list .entry-content p {
+    padding-right: 0px;
+}
+
+/* 
+      Blog List Page 
+*=============================*/
+.blog-list-page .single-post {
+    width: 100%;
+}
+.blog-list-page .single-post-warper {
+    padding: 20px 18px;
+}
+.blog-list-page .single-post-right .blog-foot a {
+    margin-left: 0px;
+}
+.blog-list-page .hvr-shutter-in-horizontal, .blog-full-widthh .hvr-shutter-in-horizontal {
+    top: 10px;
+}
+.blog-list-page {
+    padding-bottom: 70px;
+}
+.blog-list-page .blog-foot {
+    display: block;
+}
+
+/* 
+      Blog full-width Page 
+*=============================*/
+
+.blog-full-widthh .single-post-warper {
+    left:0px;
+	padding: 28px 22px;
+}
+.blog-full-widthh .blog-thumb {
+    padding: 0px 15px;
+	margin-bottom: 50px;
+}
+.blog-full-widthh .single-post {
+    margin-bottom:0px;
+}
+.blog-full-widthh .blog-thumb-left {
+    left: 0px;
+}
+.blog-full-widthh .blog-thumb img {
+    box-shadow: -5px 13px 42px 0px rgba(215, 212, 212, 0.81);
+}
+/*=====================================
+        Work Page Two
+*=====================================*/
+.work-item:hover .mask2 {
+    -webkit-opacity: .9;
+    -moz-opacity: .9;
+    -ms-opacity: .9;
+    -o-opacity: .9;
+    opacity: .9;
+    height: 100%;
+}
+.blog-header h3 {
+    line-height: 36px;
+}
+.blog-header h3::before {
+    display: none;
+}
+.single-work-page .portfolioitem {
+    padding-top: 70px;
+    padding-bottom: 0px;
+	margin-bottom: -50px;
+}
+.single-work-page .itemPortfolioContent {
+    margin-top: 78px;
+}
+.otherWorks {
+    margin-bottom: 30px;
+}
+.otherWorks .hvr-shutter-in-horizontal {
+    top: -30px;
+}
+/*=====================================
+    About Page  
+*=====================================*/
+.about-contact .contact-info {
+    top: 30px;
+    margin-bottom: 70px;
+}
+
+.about-one .about-right img {
+    margin-left: 0px;
+	margin-top: 40px;
+	width:100%;
+}
+/*=====================================
+    About Page Two
+*=====================================*/
+.nwsletter {
+    margin-top: 0px;
+}
+.nwsletter .base-header h3 {
+    line-height: 42px;
+	letter-spacing: 0px;
+}
+/*=====================================
+   Service Page  
+*=====================================*/
+.service-page-two {
+    background:#F9F9F9;
+}
+.single-service-page {
+    padding-bottom: 0px;
+}
+.single-service-page .related-portfolio {
+    padding-bottom: 30px;
+}
+ }
+ 
+ /* Mobile Vertical Layout: 488px 
+=======================================================================================*/
+@media only screen and (min-width: 488px) and (max-width: 767px){
+/*----------------------------
+   2. Header Section    
+------------------------------*/
+.section-header {
+    width: 445px;
+}
+.video-header p {
+    width: 100%;
+}
+
+.about-list .about-info {
+    bottom: -80px;
+}
+
+.top-contact li {
+    margin-top: -7px;
+    width: 48%;
+    margin-left: -44px;
+    padding-left: 20px !important;
+}
+/*----------------------------
+  About Section
+------------------------------*/
+.about-section .row .col-xs-12{
+	width: 50%;
+}
+
+
+/*
+   Portfolio About Section 
+------------------------------*/
+.portfolio-page-about .about-list .about-info {
+    padding: 20px 26px 20px 30px;
+}
+.portfolio-page-about .about-list .about-info h6::before {
+    height: 34px;
+    top: -5px;
+}
+.portfolio-page-about .about-list .about-info h6::before {
+    display: block;
+}
+.portfolio-page-about .about-list .about-info h6 {
+    padding-left: 18px !important;
+}
+
+/*
+    About Section (index-contractor)
+----------------------------------------------*/
+.about_process .col-xs-12 {
+    width: 50%;
+}
+/*----------------------------
+  4. Service Section
+------------------------------*/
+.service-warper {
+    background:#fff url("../images/background/service-2.html") 242px 103px no-repeat;
+    padding: 67px 0px;
+    height: 778px;
+}
+.service-section .section-header {
+    margin-top:0px;
+}
+.service-item .service-content {
+    width: 75%;
+    padding-right: 68px;
+}
+.service-item .service-icon {
+    width: 19%;
+}
+
+.marketing-service-ssection .fea-about-info {
+    float: left;
+}
+.marketing-service-ssection .service-item {
+    margin-bottom: 130px;
+}
+.marketing-service-ssection .fea-about-info {
+    margin-top: 5px;
+}
+/*
+    Services  Section (index-contractor)
+----------------------------------------------*/
+.servs-section .container .row .col-xs-12 {
+    width: 50%;
+}
+.servs-section .servs-img img {
+    height: 224px;
+}
+.servs-section .servs-box .servs-content h3 {
+    font-size: 18px;
+    padding-top: 0px;
+    letter-spacing: 4px;
+}
+.servs-section .servs-box .servs-content {
+    padding-top: 0px;
+}
+.servs-section .servs-box .servs-content p {
+    font-size: 13px;
+    margin-top: -28px;
+    padding-left: 6px;
+    line-height: 21px;
+}
+/*----------------------------
+  5. Achieve Section 
+------------------------------*/
+.chooseus-item .chooseus-content {
+    width: 77%;
+}
+.chooseus-item .chooseus-icon {
+    width: 20%;
+}
+.achieve-section .section-header {
+    width: 50%;
+}
+.achieve-section .section-header::before {
+   top: 78px;
+}
+
+/*----------------------------
+  6. Work Section 
+------------------------------*/
+.mask2 h4 {
+    margin-top: 82px;
+}
+.work-section .row .col-xs-12{
+	width: 50%;
+	padding: 15px 15px;
+	margin-left: -4px;
+}
+/*----------------------------
+  8. Team Section 
+------------------------------*/
+.team-section .section-header {
+    width: 445px;
+}
+.team-section .row .col-xs-12{
+	width: 50%;
+}
+.member .info {
+    width: 99.7%;
+}
+.member:hover .info {
+    width: 100%;
+    left: 0%;
+}
+/*--------------------------------------
+  10. Blog Section 
+----------------------------------------*/
+.blog-section .section-header {
+    width: 445px;
+}
+.single-post-warper {
+    padding: 40px 37px;
+}
+.date-sty {
+    font-size: 30px;
+}
+.blog-content a {
+    font-size: 19px;
+}
+.blog-fornt .blog-post.row .col-xs-12{
+	width: 50%;
+}
+/*--------------------------------------
+    Testimonial Section 
+----------------------------------------*/
+.pricing-section .col-lg-offset-2 {
+    margin-left: 0%;
+}
+.testimonial-box img, .cus-title {
+    margin-top: 26px;
+}
+
+.pricing-page .col-xs-12{
+    width: 50%;
+}
+
+
+
+/*--------------------------------------
+  11. Contact Section 
+----------------------------------------*/
+.contact-section .section-header {
+    width: 100%;
+}
+/*--------------------------------------
+  14. Single Blog Page
+----------------------------------------*/
+.comments li .comment span.comment-reply {
+    top: 15px;
+}
+/*--------------------------------------
+     Footer
+----------------------------------------*/
+.footer-section .row .col-xs-12{
+	width: 50%;
+}
+.footer-section .widget p {
+    margin-top: 0px;
+}
+ }

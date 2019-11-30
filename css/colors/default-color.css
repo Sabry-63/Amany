@@ -1,0 +1,192 @@
+/* ==========================================================================
+   Default Color styles
+========================================================================== */
+.manimenu a:hover {
+    color: #ef6b4c;
+	border-top: 1px solid #ef6b4c;
+}
+.navbar-nav > li > a.current {
+    color: #ef6b4c;
+}
+.manimenu ul > li ul li:hover a {
+    color: #ef6b4c;
+}
+.top-nav-collapse .navbar-nav > li > a.current {
+    color: #ef6b4c;
+}
+.top-nav-collapse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:hover, .top-nav-collapse .navbar-nav > li > a.current:focus {
+    color: #ef6b4c;
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: #ef6b4c;
+}
+.header-right ul li a {
+    color: #ef6b4c;
+}
+.slide-tit {
+    color: #ef6b4c;
+}
+.slider-area .btn-chos {
+    border: 1px solid #ef6b4c;
+    color: #ef6b4c;
+}
+.pricing .signup:hover {
+    background-color: #ef6b4c;
+}
+.pricing .name {
+    background: #ef6b4c;
+}	
+.bestprice .price {
+    color: #ef6b4c;
+}
+.pricing .bestprice .signup {
+    background: #ef6b4c;
+}
+.blog-contact .btn-chos {
+    border: 1px solid #ef6b4c;
+    background: #ef6b4c;
+}
+.section-title h3::before, .section-title h2::before {
+    background: #ef6b4c;
+}
+.widget .widget-title::before {
+    background: #ef6b4c;
+}
+	
+.about_process .proces:hover {
+    background: #ef6b4c;
+}
+
+.skill-bar-percent {
+    background: #ef6b4c;
+}
+.skill-bar-percent::before {
+    background: #ef6b4c;
+}
+
+
+.blog-header h3::before {
+    background: #ef6b4c;
+}
+.blog-header h3 {
+    color: #ef6b4c;
+}
+
+.ban1_txt h3 {
+    color: #ef6b4c;
+}
+.btn-cus_1 {
+    background: #ef6b4c;
+}
+.ban1_txt a {
+    border: 1px solid #ef6b4c;
+    color: #ef6b4c;
+}
+.btn-cus_1:hover {
+    border: 1px solid #ef6b4c;
+    color: #ef6b4c !important;
+}
+.btn-chos:hover {
+  color: #ef6b4c;
+}
+
+
+.about-mask {
+    background: rgba(239, 107, 76, 0.71);
+}
+.base-header small {
+    color: #ef6b4c;
+}
+
+
+.service-ssection .hvr-shutter-in-horizontal::before {
+    background: #ef6b4c;
+}
+.service-ssection .base-header h3 small {
+    color: #ef6b4c;
+}
+ 
+
+.member .info {
+    background: rgba(239, 107, 76, 0.91);
+}
+
+
+.chooseus-icon a {
+    color: #fff;
+}
+.chooseus-item .chooseus-icon i {
+    border: 3px solid #ef6b4c;
+    background: #ef6b4c;
+}
+.chooseus-item:hover.chooseus-item .chooseus-icon  i {
+  border: 3px solid #ef6b4c;
+  color: #ef6b4c;
+}
+
+
+
+.hvr-shutter-in-horizontal::before {
+    background: #ef6b4c;
+}
+ 
+
+.hvr-shutter-in-horizontal:hover::before,
+.hvr-shutter-in-horizontal:focus::before,
+.hvr-shutter-in-horizontal:active::before {
+  background: #ef6b4c;
+}
+
+.project-filter ul li.active {
+    color: #ef6b4c;
+    border-bottom: 2px solid #ef6b4c;
+}
+.project-filter ul li.active {
+    color: #ef6b4c;
+}
+.project-filter ul li:hover {
+    color: #ef6b4c;
+}
+.project_menu .hvr-underline-from-center::before {
+    background: #ef6b4c;
+}
+.mask2 p {
+    color: #ef6b4c;
+}
+.mask2 i {
+    color: #ef6b4c;
+}
+
+.clientCont a {
+    background: #ef6b4c;
+}
+.testimonial-box span {
+    color: #ef6b4c;
+}
+.pricing-section .owl-theme .owl-controls .owl-page.active span {
+    background: #ef6b4c;
+}
+.testimonial-box p::before {
+    color: #ef6b4c;
+}
+.pricing-section .hvr-shutter-in-horizontal {
+    background: #ef6b4c;
+}
+
+
+.contact-section .submit-button{
+    background: #ef6b4c;
+	border: 1px solid #ef6b4c;
+}
+
+.landing-footer .social_footer a {
+    color: #ef6b4c;
+}
+
+.footer-section .recent-post-date {
+    border: 1px solid #ef6b4c;
+    background: #ef6b4c;
+}
+.widget_mailchimp .mc-embedded-subscribe {
+    background: #ef6b4c;
+}
