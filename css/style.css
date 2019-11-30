@@ -537,6 +537,18 @@ Videos Section */
     color: #fff;
     font-size: 20px;
 }
+.team-section .center{
+    margin-top: 80px;
+}
+.team-section .center img{
+    width: 250px;
+    border-radius: 50%;
+    margin: auto;
+    transition: border-radius .3s;
+}
+.team-section .center img:hover{
+    border-radius: 0;
+}
 /*----------------------------------------------------
    7.Get In Touch section
 ------------------------------------------------------*/
