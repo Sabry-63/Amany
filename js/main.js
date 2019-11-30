@@ -93,55 +93,7 @@ $(function() {
 			console.log('done scrolling');
 		}
 	});	
-/* =======================================
-    Testimonial Section 
-=======================================*/
-  $("#testimonial").owlCarousel({
-    autoPlay: 6000, //Set AutoPlay to 3 seconds
-    items : 1,
-	loop:true,
-	margin:10,
-	singleItem:true,
-	touchDrag: true,
-	mouseDrag: true,
-	pagination:true,
-	nav:true,
-	dots: true,
-  });
-  
- 
-/* =======================================
-    Marketing Testimonial Section 
-=======================================*/
-  $("#testim").owlCarousel({
-    autoPlay: 6000, //Set AutoPlay to 3 seconds
-    items : 1,
-	loop:true,
-	margin:10,
-	singleItem:true,
-	touchDrag: true,
-	mouseDrag: true,
-  });
- 
- 
-/* =======================================
-    Pricing Section 
-=======================================*/
-  $("#pricing").owlCarousel({
-    autoPlay: 6000, //Set AutoPlay to 3 seconds
-    items : 1,
-	loop:true,
-	margin:10,
-	singleItem:true,
-	touchDrag: true,
-	mouseDrag: true,
-	pagination:true,
-	nav:true,
-	dots: true,
-	navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
-  });
- 
-		
+
 /* =======================================
     Gallery Section : mixItUp jQuery 
 =======================================*/
@@ -169,18 +121,37 @@ $(function() {
 		$('html').animate({'scrollTop':'0'},4000);
 		return false;
 	});		
-	
 /* =======================================
-    Contact form validation
+    Scroll Top
 =======================================*/
-	var form = $('.contact-form');
-	form.submit(function () {'use strict',
-		$this = $(this);
-		$.post($(this).attr('action'), function(data) {
-			$this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
-		},'json');
-		return false;
-	});
-	
+    $('.center').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
+    });
+
 	
 });		
