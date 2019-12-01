@@ -131,6 +131,7 @@ $(function() {
         autoplay: true,
         autoplaySpeed: 1000,
         arrows: false,
+        rtl: true,
         responsive: [
             {
               breakpoint: 768,
