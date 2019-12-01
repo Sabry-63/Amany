@@ -1,0 +1,155 @@
+/*----------------------------------------------------
+    1. Global styles
+------------------------------------------------------*/
+body {
+    direction: rtl;
+}
+/*----------------------------------------------------
+  2. Header Section
+------------------------------------------------------*/
+.navbar {
+    text-transform: uppercase;
+    position: fixed;
+}
+.navbar .navbar-nav {
+    margin-right: 15px;
+    margin-left: 0
+}
+/* Mega Menu
+----------------------*/
+.manimenu ul {
+    margin-right: 20px !important;
+    margin-left: 0;
+}
+.manimenu ul > li {
+    float: right;
+}
+/*
+   Top Navbar 
+------------------*/
+
+.top-contact li::before {
+    left: -10px;
+    right: 0;
+
+}
+.top-contact .icon {
+    margin-left: 5px;
+    margin-right: 0;
+}
+.top-contact li {
+    padding-right: 20px;
+    padding-left: 0;
+    float: right;
+}
+/*----------------------------------------------------
+   4. Services Section
+------------------------------------------------------*/
+.chooseus-section .base-header h3 {
+    text-align: right;
+}
+
+.chooseus-item .chooseus-icon {
+    float: right;
+    width: 11%;
+    text-align: center;
+    position: relative;
+    right: -45px;
+    left: 0;
+}
+.chooseus-item .chooseus-content {
+    float: right;
+    text-align: right;
+}
+.chooseus-warper{
+    margin-right: 100px;
+}
+/*----------------------------------------------------
+	6. Work  Section
+------------------------------------------------------*/
+.work-section .base-header h3 {
+    text-align: right;
+}
+/* Work items
+------------------*/
+.project-filter {
+    margin-right: 110px;
+    margin-left: 0;
+}
+.project-filter ul li {
+    margin-right: 16px;
+    margin-left: 0;
+    float: right;
+}
+.project-filter ul li i {
+    margin-left: 4px;
+    margin-right: 0;
+}
+.work-item:hover .mask2 h4 {
+    margin-right: 0px;
+}
+
+.work-item:hover .mask2 p {
+    margin-left: 0px;
+}
+
+/* medical-guide-section
+------------------------------------------------------*/
+.guide-item-img {
+    margin-right: -15px;
+    margin-left: 0;
+}
+.guide-item .description {
+    padding-left: 0;
+}
+.guide-list {
+    padding-right: 0px;
+}
+.guide-list li {
+    padding-right: 30px;
+    padding-left: 0;
+}
+.guide-list li::before {
+    right: 0;
+}
+/*----------------------------------------------------
+   12. Footer Section
+------------------------------------------------------*/
+.footer-section {
+    float: right;
+}
+
+.footer-section .widget p {
+    padding-left: 44px;
+    padding-right: 0;
+}
+
+.widget_mailchimp .email {
+    padding-right: 55px;
+    padding-left: 0;
+}
+.widget_mailchimp form > .icon {
+    right: 20px;
+    left: 0;
+    text-align: right;
+}
+.footer-social-links ul {
+    margin-right: -39px;
+    margin-left: 0;
+}
+
+.contact_info ul li {
+    padding-right: 30px;
+    padding-left: 0;
+}
+.subfooter {
+    float: right;
+}
+.subfooter p {  
+    float: right;
+    margin-right: -12px;
+    margin-left: 0;
+}
+.scrollup {
+    float: left;
+}

@@ -190,11 +190,6 @@ section {
     transition: background 0.3s ease-in-out;
 }
 
-.navbar-header {
-    background: transparent url("../images/logo-border.png") no-repeat scroll
-        right center;
-}
-
 .nav > li > a {
     padding: 14px 0px;
     margin: 0 17px;
@@ -537,6 +532,18 @@ Videos Section */
     color: #fff;
     font-size: 20px;
 }
+.team-section .center{
+    margin-top: 80px;
+}
+.team-section .center img{
+    width: 75%;
+    border-radius: 50%;
+    margin: auto;
+    transition: border-radius .3s;
+}
+.team-section .center img:hover{
+    border-radius: 0;
+}
 /*----------------------------------------------------
    7.Get In Touch section
 ------------------------------------------------------*/
@@ -593,6 +600,7 @@ Videos Section */
     font-size: 18px;
     letter-spacing: 3px;
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .get-touch-section p {
     color: rgba(255, 255, 255, 0.64);
