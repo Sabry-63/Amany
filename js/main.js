@@ -22,6 +22,13 @@ $(function() {
 	$('#myTab a:last').tab('show')
 
 
+    
+     $('.navbar .navbar-collapse li a').click(function () {
+        $('html , body').animate({
+            scrollTop: $('#' + $(this).data('value')).offset().top
+        }, 1000);
+    });
+    
 /*=======================================
     Client Section  
 =======================================*/

@@ -22,6 +22,18 @@ $(function() {
 	$('#myTab a:last').tab('show')
 
 
+    
+     $('.navbar .navbar-collapse li a').click(function () {
+        $('html , body').animate({
+            scrollTop: $('#' + $(this).data('value')).offset().top
+        }, 1000);
+    });
+    
+    
+    $('.navbar-toggle').click(function () {
+       $('.navbar-collapse').slideToggle();
+    });
+    
 /*=======================================
     Client Section  
 =======================================*/
@@ -94,6 +106,7 @@ $(function() {
 		}
 	});	
 
+    
 /* =======================================
     Gallery Section : mixItUp jQuery 
 =======================================*/
