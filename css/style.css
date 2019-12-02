@@ -402,8 +402,15 @@ Videos Section */
     font-size: 13px;
     text-transform: uppercase;
 }
+.top-right ul{
+    list-style: none;
+}
+.top-right ul li{
+    display: inline-block;
+}
 .top-right a {
     color: #8c8c8c;
+    display: inline-block;
     margin-left: 5px;
     top: 5px;
     position: relative;

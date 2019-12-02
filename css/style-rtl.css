@@ -15,6 +15,15 @@ body {
     margin-right: 15px;
     margin-left: 0
 }
+.navbar-left{
+    display: block;
+}
+.manimenu .navbar-header{
+    margin-left: auto;
+}
+.navbar-toggle{
+    margin-top: -5px !important;
+}
 /* Mega Menu
 ----------------------*/
 .manimenu ul {
